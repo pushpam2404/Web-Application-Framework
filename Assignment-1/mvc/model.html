@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model - MVC Architecture Demonstration</title>
+</head>
+<body>
+    <header>
+        <h1>Model Component</h1>
+        <p>The data structures, storage, and logic layer of the MVC pattern.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="model.html"><strong>Model</strong></a></li>
+            <li><a href="view.html">View</a></li>
+            <li><a href="controller.html">Controller</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>What is the Model?</h2>
+            <p>
+                The <strong>Model</strong> represents the central component of the MVC pattern. It is the application's dynamic data structure, independent of the user interface. It directly manages the data, logic, and rules of the application.
+            </p>
+        </section>
+
+        <section>
+            <h2>Responsibilities of the Model</h2>
+            <ul>
+                <li><strong>Data Retrieval and Storage:</strong> Fetching data from databases or APIs and persisting updates.</li>
+                <li><strong>Business Logic:</strong> Processing and executing rules specific to the application domain (e.g., calculating taxes, verifying user status).</li>
+                <li><strong>State Management:</strong> Maintaining the current state of the application's entities.</li>
+                <li><strong>Validation:</strong> Enforcing rules to ensure data integrity before storing or updating information.</li>
+                <li><strong>Notification:</strong> Informing the View (or Controller) when data has changed, so the user interface can be updated.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Examples of Data Managed by the Model</h2>
+            <p>Here are five common examples of data entities managed by the Model in typical web applications:</p>
+            <ol>
+                <li>
+                    <strong>User Account:</strong> Stores registration data such as usernames, encrypted passwords, email addresses, and account creation dates.
+                </li>
+                <li>
+                    <strong>Product Catalog:</strong> Manages item details like titles, prices, descriptions, inventory counts, and image references for an e-commerce website.
+                </li>
+                <li>
+                    <strong>Shopping Cart:</strong> Tracks temporary state data such as items selected, quantities, active discount codes, and calculated subtotals.
+                </li>
+                <li>
+                    <strong>Transactions / Orders:</strong> Records historical logs of purchases, including payment methods, status (e.g., pending, shipped), and shipping details.
+                </li>
+                <li>
+                    <strong>Blog Posts / Articles:</strong> Holds content, author relationships, publishing status, tags, and comments for publishing platforms.
+                </li>
+            </ol>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 MVC Architecture Demonstration. All Rights Reserved. Created using pure HTML5.</p>
+    </footer>
+</body>
+</html>
