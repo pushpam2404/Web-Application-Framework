@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Book Haven | Online Bookstore</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header class="navbar">
+    <div class="logo">
+      <h1>📚 The Book Haven</h1>
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#categories">Categories</a></li>
+        <li><a href="#featured">Featured</a></li>
+        <li><a href="#details">Book Table</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Banner -->
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <h2>Discover Your Next Favorite Story</h2>
+      <p>Explore thousands of books across tech, fiction, sci-fi, and self-help with instant delivery.</p>
+      <a href="#featured" class="btn">Explore Books</a>
+    </div>
+  </section>
+
+  <!-- Book Categories -->
+  <section id="categories" class="container">
+    <h2 class="section-title">Popular Categories</h2>
+    <div class="category-list">
+      <ul class="category-items">
+        <li>Software & Engineering</li>
+        <li>Science Fiction & Fantasy</li>
+        <li>Business & Management</li>
+        <li>Data Science & AI</li>
+        <li>Biographies & History</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Featured Books (Grid Layout) -->
+  <section id="featured" class="container">
+    <h2 class="section-title">Featured Books</h2>
+    <div class="book-grid">
+      <div class="book-card">
+        <img src="https://covers.openlibrary.org/b/isbn/9780132350884-L.jpg" alt="Clean Code">
+        <h3>Clean Code</h3>
+        <p class="author">Robert C. Martin</p>
+        <p class="price">$34.99</p>
+        <button class="btn-card">Add to Cart</button>
+      </div>
+
+      <div class="book-card">
+        <img src="https://covers.openlibrary.org/b/isbn/9781449373320-L.jpg" alt="Designing Data-Intensive Applications">
+        <h3>Designing Data-Intensive Applications</h3>
+        <p class="author">Martin Kleppmann</p>
+        <p class="price">$42.50</p>
+        <button class="btn-card">Add to Cart</button>
+      </div>
+
+      <div class="book-card">
+        <img src="https://covers.openlibrary.org/b/isbn/9780135957059-L.jpg" alt="The Pragmatic Programmer">
+        <h3>The Pragmatic Programmer</h3>
+        <p class="author">Andrew Hunt & David Thomas</p>
+        <p class="price">$38.00</p>
+        <button class="btn-card">Add to Cart</button>
+      </div>
+
+      <div class="book-card">
+        <img src="https://covers.openlibrary.org/b/isbn/9780441013593-L.jpg" alt="Dune">
+        <h3>Dune</h3>
+        <p class="author">Frank Herbert</p>
+        <p class="price">$18.99</p>
+        <button class="btn-card">Add to Cart</button>
+      </div>
+
+      <div class="book-card">
+        <img src="https://covers.openlibrary.org/b/isbn/9780735211292-L.jpg" alt="Atomic Habits">
+        <h3>Atomic Habits</h3>
+        <p class="author">James Clear</p>
+        <p class="price">$21.00</p>
+        <button class="btn-card">Add to Cart</button>
+      </div>
+
+      <div class="book-card">
+        <img src="https://covers.openlibrary.org/b/isbn/9780137618873-L.jpg" alt="Modern Operating Systems">
+        <h3>Modern Operating Systems</h3>
+        <p class="author">Andrew S. Tanenbaum</p>
+        <p class="price">$49.99</p>
+        <button class="btn-card">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Book Details Table -->
+  <section id="details" class="container">
+    <h2 class="section-title">Book Specifications & Ratings</h2>
+    <div class="table-responsive">
+      <table class="book-table">
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Price</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Clean Code</td>
+            <td>Robert C. Martin</td>
+            <td>$34.99</td>
+            <td>★ ★ ★ ★ ★ (4.8/5)</td>
+          </tr>
+          <tr>
+            <td>Designing Data-Intensive Applications</td>
+            <td>Martin Kleppmann</td>
+            <td>$42.50</td>
+            <td>★ ★ ★ ★ ★ (4.9/5)</td>
+          </tr>
+          <tr>
+            <td>The Pragmatic Programmer</td>
+            <td>Andrew Hunt & David Thomas</td>
+            <td>$38.00</td>
+            <td>★ ★ ★ ★ ☆ (4.7/5)</td>
+          </tr>
+          <tr>
+            <td>Dune</td>
+            <td>Frank Herbert</td>
+            <td>$18.99</td>
+            <td>★ ★ ★ ★ ☆ (4.6/5)</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Customer Reviews Section -->
+  <section id="reviews" class="container">
+    <h2 class="section-title">Customer Reviews</h2>
+    <div class="reviews-wrapper">
+      <div class="review-card">
+        <p class="quote">"The best place to buy tech books! Fast delivery and pristine physical quality."</p>
+        <p class="reviewer">- Alex M., Software Engineer</p>
+      </div>
+      <div class="review-card">
+        <p class="quote">"Great discounts and an awesome collection of computer science material."</p>
+        <p class="reviewer">- Sarah K., Data Analyst</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+  <section id="contact" class="container">
+    <h2 class="section-title">Get in Touch</h2>
+    <form class="contact-form" action="#" method="post">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="John Doe" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email" placeholder="john@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" placeholder="Your inquiry..." required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 The Book Haven. All Rights Reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Support</a>
+    </div>
+  </footer>
+
+</body>
+</html>
