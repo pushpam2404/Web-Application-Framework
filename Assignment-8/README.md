@@ -1,9 +1,6 @@
 # Assignment 8: Web Application Framework
 
 **Course:** Web Application Framework  
-**Student Name:** Pushpam Raj Satyarthi  
-**Roll Number:** 2024107717  
-**Department / Branch:** CSE-Core  
 
 ---
 
